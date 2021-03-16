@@ -20,14 +20,9 @@
 #     print("Found at ",pos+1)
 # else:
 #     print("Not Found")
-# arr=[1,2,3]
-# s=0
-# e=n-1
-# while(s<e){
-#     swap(arr[s],arr[e]),
-#     s=s+1,
-#     e=e-1,
-# }
+
+
+
 # def revlist(A,start,end):
 #     while start<end:
 #         A[start],A[end]=A[end],A[start]
@@ -41,25 +36,7 @@
 
 
 
-# def isshoted(arr): 
-      
-#     # Calculating length 
-#     n = len(arr) 
-      
-#     # Array has one or no element or the 
-#     # rest are already checked and approved. 
-#     if n == 1 or n == 0: 
-#         return True
-          
-#     # Recursion applied till last element 
-#     return arr[0]<= arr[1] and isshoted(arr[1:]) 
-  
-  
-# arr = [20, 22, 23, 45, 78, 88] 
-  
-# # Displaying result 
-# if isshoted(arr): print("Yes") 
-# else: print("No")
+
 
 def issorted(arr):
     n=len(arr)
